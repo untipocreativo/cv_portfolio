@@ -1,0 +1,367 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pablo Cuesta - CV + Portfolio</title>
+  <link rel="icon" type="image/x-icon" href="./favicon.webp">
+  <!-- Link Swiper's CSS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+  <link rel="stylesheet" href="main.css">
+
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-NJNSNN092N"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
+
+    gtag('config', 'G-NJNSNN092N');
+  </script>
+</head>
+<body>
+  <main>
+    
+    <div class="menu-lateral">
+      <img src="./imgs/forma-flecha-down.svg" alt="Icono flecha hacia abajo" class="flecha-abajo-menu">
+      <ul class="menu-elements">
+        <li data-ficha="ficha-pablo" class="menu-item active">pablo cuesta</li>
+        <li data-ficha="ficha-sobre-mi" class="menu-item">sobre mi</li>
+        <li data-ficha="ficha-skills" class="menu-item">skills</li>
+        <li data-ficha="ficha-portfolio" class="menu-item">portfolio</li>
+        <li data-ficha="ficha-contacto" class="menu-item">contacto</li>
+      </ul>
+      <img src="./imgs/etiqueta-open-to-work.png" alt="Open to work" class="open-to-work-tag">
+    </div>
+
+    <div class="contenido-principal">
+      
+      <div id="ficha-pablo" class="ficha ficha-pablo p-20">
+        <h1 id="titulo">meet_pablo</h1>
+        <div class="mensaje-inicio ">
+          <p>Si has llegado hasta aquí es casi seguro que yo quiera trabajar contigo y que a ti te haya interesado mi perfil, así que voy a contarte quién soy y qué hago.</p>
+          <p class="destacado"><b>¿Quieres saber más?</b><span class="only-mobile"> Pues ¡empieza a hacer scoll!</span></p>
+          <a class="button only-desktop" href="/#ficha-sobre-mi">sí, quiero</a>
+        </div>
+        
+        <img src="./imgs/forma-flecha-down.svg" alt="SCROLL" class="img-scroll">
+      </div>
+      
+      <div id="ficha-sobre-mi" class="ficha ficha-sobre-mi">
+        <div class="gigante">
+          <h2>resume</h2>
+        </div>
+        <div class="content-sobre-mi p-20">
+          <p class="nombre">pablo cuesta</p>
+          <p class="descripcion">"soy un programador que diseña / un diseñador que programa"</p>
+          <div class="contenedor-fichas-sobre-mi">
+            
+            <div class="las-tarjetas">
+              <div class="swiper mySwiper">
+                <div class="swiper-wrapper">
+                  <div class="swiper-slide">
+                    <div class="swiper-content">
+                      <h3>idiomas</h3>
+                      <h4>INGLÉS + ITALIANO</h4>
+                      <p>Hablo inglés porque me gusta e italiano porque lo necesité.</p>
+                      <p>He trabajado de cara al público en <span class="naranja">Dublín</span> y 3 meses en una agencia en <span class="naranja">Bremen (Alemania)</span>. Ahí es donde realmente lo he asimilado.</p>
+                      <p>El italiano, si tienes intriga, te lo cuento luego ☺️</p>
+                    </div>
+                  </div>
+                  <div class="swiper-slide">
+                    <div class="swiper-content">
+                      <h3>experiencia</h3>
+                      <h4>¿dónde he trabajado?</h4>
+                      <p>Llevo de <span class="naranja">freelance</span> desde 2018. Al principio, cuando solo hacía diseño gráfico, como <span class="naranja">UnTipoCreativo</span> y ahora que he aprendido mucho más, como <span class="naranja">Utopi[c]reative</span>. He trabajado para marcas como Movistar+, Audible de Amazon, Mapfre y... ¡muchos más!
+                      </p>
+                      <p>Antes de ello trabajé como creativo digital para agencias como <a href="https://rkpeople.com" target="_blank" class="naranja ">RK People</a> o <a href="https://www.vml.com/es/spain" target="_blank" class="naranja">VMLY&R</a> y de desarrollador para <a href="https://www.axpe.com/" target="_blank" class="naranja">AXPE</a>.
+                      </p>
+                    </div>
+                  </div>
+                  <div class="swiper-slide">
+                    <div class="swiper-content">
+                      <h3>formación</h3>
+                      <h4>aquí he aprendido:</h4>
+                      <p>Técnico superior en <span class="naranja">Diseño y Producción editorial</span></p>
+                      <p>Técnico superior en <span class="naranja">Desarrollo de Aplicaciones Web</span></p>
+                      <p>Curos varios de 3D, bases de datos, JavaScript, diseño web...</p>
+                      <p>Y <span class="naranja">muuuy</span> autodidacta.</p>
+                    </div>
+                  </div>
+                  <div class="swiper-slide">
+                    <div class="swiper-content">
+                      <h3>aficiones</h3>
+                      <h4>no solo soy trabajo</h4>
+                      <p>Me gusta <span class="naranja">dibujar</span></p>
+                      <p>Me encanta la <span class="naranja">música</span> y me gusta tocar la <span class="naranja">guitarra</span></p>
+                      <p>Me gusta <span class="naranja">leer</span> + ver <span class="naranja">películas</span> + ver <span class="naranja">series</span></p>
+                      <p>Me gusta la <span class="naranja">tecnología</span></p>
+                    </div>
+                  </div>
+                </div>
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <div id="ficha-skills" class="ficha ficha-skills">
+        <div class="skills-tags">
+          <div class="skills-tags__tag active" data-ficha-tag="ficha-skills-frontend"><span>frontend</span></div>
+          <div class="skills-tags__tag" data-ficha-tag="ficha-skills-web-design"><span>web design</span></div>
+          <div class="skills-tags__tag" data-ficha-tag="ficha-skills-css-expert"><span>CSS expert</span></div>
+          <div class="skills-tags__tag" data-ficha-tag="ficha-skills-react"><span>React</span></div>
+        </div>
+
+        <div class="ficha-grande">
+
+          <div id="ficha-skills-frontend" class="ficha-skill ficha-01 ficha-frontend active">
+            <div class="parte-superior">
+              <div class="ficha-skill__titulo"><h2>frontend</h2></div>
+              <div class="ficha-skill__texto">
+                <p>Soy desarrollador frontend con experiencia en la creación de interfaces dinámicas, accesibles y optimizadas.</p>
+                <p>Tengo un amplio conocimiento de HTML, CSS y JavaScript y lo utilizo para transformar diseños en experiencias digitales atractivas.</p>
+                <p>Estoy especializado en maquetar webs modernas con interactividad y efectos de movimiento, siempre priorizando la usabilidad y el rendimiento.</p>
+                <p>Además, tengo una sólida comprensión de la importancia de la semántica en el código y del rendimiento en el navegador, aplicando las mejores prácticas para garantizar tiempos de carga rápidos y experiencias fluidas en todos los dispositivos.</p>
+            </div>
+            </div>
+            <div class="parte-inferior iconos">
+              <div class="titulo">
+                <p>herramientas</p>
+              </div>
+              <div class="iconos-container">
+                <div class="icono">
+                  <div class="imagen">
+                    <img src="./imgs/ico-html.svg" alt="logo html">
+                  </div>
+                  <div class="etiqueta">
+                    <span>HTML5</span>
+                  </div>
+                </div>
+                <div class="icono">
+                  <div class="imagen">
+                    <img src="./imgs/ico-css.svg" alt="logo css">
+                  </div>
+                  <div class="etiqueta">
+                    <span>CSS</span>
+                  </div>
+                </div>
+                <div class="icono">
+                  <div class="imagen">
+                    <img src="./imgs/ico-js.svg" alt="logo javascript">
+                  </div>
+                  <div class="etiqueta">
+                    <span>JS</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div id="ficha-skills-web-design" class="ficha-skill ficha-02 ficha-web-design ">
+            <div class="parte-superior">
+              <div class="ficha-skill__titulo"><h2>web design</h2></div>
+              <div class="ficha-skill__texto">
+                <p>Como diseñador web, combino creatividad y funcionalidad para dar vida a proyectos visualmente atractivos.</p>
+                <p>Mi objetivo es crear diseños modernos, únicos y adaptados a las necesidades del cliente. Las herramientas que más me gustan son Figma, Illustrator y Photoshop, pero puedo trabajar con casi cualquier software de diseño.</p>
+                <p>Me esfuerzo por diseñar interfaces que no solo sean estéticamente agradables, sino también intuitivas y accesibles para todos los usuarios, asegurándome de que cada proyecto esté alineado con los objetivos estratégicos del cliente y optimizado para los motores de búsqueda.</p>
+            </div>
+            </div><div class="parte-inferior iconos">
+              <div class="titulo">
+                <p>herramientas</p>
+              </div>
+              <div class="iconos-container">
+                <div class="icono">
+                  <div class="imagen">
+                    <img src="./imgs/ico-figma.svg" alt="logo figma">
+                  </div>
+                  <div class="etiqueta">
+                    <span>Figma</span>
+                  </div>
+                </div>
+                <div class="icono">
+                  <div class="imagen">
+                    <img src="./imgs/ico-photoshop.svg" alt="logo photoshop">
+                  </div>
+                  <div class="etiqueta">
+                    <span>Photoshop</span>
+                  </div>
+                </div>
+                <div class="icono">
+                  <div class="imagen">
+                    <img src="./imgs/ico-illustrator.svg" alt="logo illustrator">
+                  </div>
+                  <div class="etiqueta">
+                    <span>Illustrator</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div id="ficha-skills-css-expert" class="ficha-skill ficha-03 ficha-css-expert ">
+            <div class="parte-superior">
+              <div class="ficha-skill__titulo"><h2>CSS expert</h2></div>
+              <div class="ficha-skill__texto">
+                <p>Me considero un experto en CSS, con amplia experiencia en la creación de estilos elegantes y adaptables. Domino herramientas como Sass y metodologías como BEM para estructurar código limpio y escalable, cuidando cada detalle de la presentación.</p>
+                <p>Además, utilizo estilos avanzados como min(), max(), clamp(), etc para optimizar el responsive y hacer que todo se vea bien en los diferentes dispositivos. </p>
+                <p>También tengo experiencia en la resolución de problemas complejos relacionados con el diseño y en la implementación de animaciones avanzadas, garantizando que cada proyecto destaque visualmente y ofrezca una experiencia de usuario impecable. También puedo trabajar con librerías como Bootstrap o Tailwind.</p>
+            </div>
+            </div>
+            <div class="parte-inferior iconos">
+              <div class="titulo">
+                <p>herramientas</p>
+              </div>
+              <div class="iconos-container">
+                <div class="icono">
+                  <div class="imagen">
+                    <img src="./imgs/ico-sass.svg" alt="logo sass">
+                  </div>
+                  <div class="etiqueta">
+                    <span>Sass</span>
+                  </div>
+                </div>
+                <div class="icono">
+                  <div class="imagen">
+                    <img src="./imgs/ico-bootstrap.svg" alt="logo bootstrap">
+                  </div>
+                  <div class="etiqueta">
+                    <span>Bootrstrap</span>
+                  </div>
+                </div>
+                <div class="icono">
+                  <div class="imagen">
+                    <img src="./imgs/ico-tailwind.svg" alt="logo tailwind">
+                  </div>
+                  <div class="etiqueta">
+                    <span>Tailwind</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div id="ficha-skills-react" class="ficha-skill ficha-04 ficha-react">
+            <div class="parte-superior">
+              <div class="ficha-skill__titulo"><h2>React</h2></div>
+              <div class="ficha-skill__texto">
+                <p>Aunque todavía no soy un experto en React, estoy aprendiendo rápidamente y ya estoy integrando la librería en mi flujo de trabajo.</p>
+                <p>Tengo un sólido conocimiento de las bases, como la creación de componentes, el uso de props y estados, y la implementación de Hooks básicos.</p>
+                <p>Sin embargo, sé que para consolidar estos conocimientos y seguir creciendo, necesito participar en un proyecto real donde pueda aplicar y expandir mis habilidades.</p>
+                <p>Estoy buscando mi primera oportunidad laboral para trabajar con React, aprender de la experiencia y contribuir a proyectos con esta potente tecnología.</p>
+            </div>
+            </div>
+            <div class="parte-inferior iconos">
+              <div class="titulo">
+                <p>herramientas</p>
+              </div>
+              <div class="iconos-container">
+                <div class="icono">
+                  <div class="imagen">
+                    <img src="./imgs/ico-react.svg" alt="logo react">
+                  </div>
+                  <div class="etiqueta">
+                    <span>React</span>
+                  </div>
+                </div>
+                <div class="icono">
+                  <div class="imagen">
+                    <img src="./imgs/ico-gsap.svg" alt="logo gsap">
+                  </div>
+                  <div class="etiqueta">
+                    <span>GSAP</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          
+        </div>
+
+      </div>
+      
+      <div id="ficha-portfolio" class="ficha ficha-portfolio">
+        <h2 class="titulo-proyectos-mobile only-mobile">proyectos</h2>
+        <div class="proyectos">
+          <div class="box">
+            <div class="box__title">El Punto C</div>
+            <div class="box__tags"><span>ecommerce</span><span>desarrollo</span><span>diseño</span></div>
+            <div class="box__scerpt">Ecommerce de ropa con diseño visual moderno y experiencia optimizada para usuarios, integrando tendencias actuales en
+            moda para destacar en el mercado.</div>
+            <div class="box__button"><a href="https://elpuntoc.com" target="_blank" class="button">ver proyecto</a></div>
+          </div>
+          <div class="box">
+            <div class="box__title">Inmensa Minoría</div>
+            <div class="box__tags"><span>desarrollo</span><span>cms</span><span>diseño</span></div>
+            <div class="box__scerpt">Representación de modelos que promueve la diversidad en proyectos creativos de publicidad y moda internacional.</div>
+            <div class="box__button"><a href="https://inmensaminoria.com" target="_blank" class="button">ver proyecto</a></div>
+          </div>
+          <div class="box">
+            <div class="box__title">Case eSports</div>
+            <div class="box__tags"><span>diseño</span><span>desarrollo</span><span>creatividad</span> </div>
+            <div class="box__scerpt">Web oficial para el equipo de esports fundado por Casemiro, con un diseño dinámico que refleja la competitividad y pasión por los videojuegos.</div>
+            <div class="box__button"><a href="https://utopicreative.com/proyecto/case-esports/" target="_blank" class="button">ver proyecto</a></div>
+          </div>
+          <div class="box">
+            <div class="box__title">RK People</div>
+            <div class="box__tags"><span>desarrollo</span><span>cms</span><span>diseño</span></div>
+            <div class="box__scerpt">Sitio corporativo para agencia de publicidad independiente con enfoque en creatividad, estrategia y campañas innovadoras</div>
+            <div class="box__button"><a href="https://rkpeople.com" target="_blank" class="button">ver proyecto</a></div>
+          </div>
+          <div class="box">
+            <div class="box__title">Agencia Bolt</div>
+            <div class="box__tags"><span>desarrollo</span><span>cms</span><span>diseño</span></div>
+            <div class="box__scerpt">Web moderna y funcional para una agencia independiente pequeña pero visionaria, destacando su capacidad para aportar ideas frescas y efectivas.</div>
+            <div class="box__button"><a href="https://agenciabolt.com" target="_blank" class="button">ver proyecto</a></div>
+          </div>
+          <div class="box box--invert">
+            <div class="box__title">utopi[c]reative</div>
+            <div class="box__tags"><span>personal</span><span>desarrollo</span><span>diseño</span></div>
+            <div class="box__scerpt">Website personal donde muestro mi experiencia como diseñador y desarrollador web, resaltando proyectos creativos, habilidades técnicas y enfoque estratégico.</div>
+            <div class="box__button"><a href="https://utopicreative.com" target="_blank" class="button">ver proyecto</a></div>
+          </div>
+        </div>
+        
+      </div>
+      
+      <div id="ficha-contacto" class="ficha ficha-contacto">
+        <div class="gigante">
+          <h2>¿te gustó?</h2>
+        </div>
+        <div class="contenido-contacto">
+          <div class="the-contacto-content">
+            <h2>pablo cuesta</h2>
+            <div class="mensaje">
+              <p>Si te ha gustado lo que has visto puedes ver más en mi linkedin o ponerte en contacto conmigo por teléfono en el <a href="tel:0034622124133" target="_blank">622 124 133</a> o enviándome un email a <a href="maito:pablo@utopicreative.com" target="_blank">pablo@utopicreative.com</a>.</p>
+              <div class="botones-contacto">
+                <a href="https://www.linkedin.com/in/pablo-c-689386107/" target="_blank" class="button secundario">Linkedin</a>
+                <a href="maito:pablo@utopicreative.com" class="button secundario">email</a>
+                <a href="tel:0034622124133" class="button secundario">teléfono</a>
+              </div>
+              <p>Si prefieres conocerme más y no has visto el enlace a mi proyecto personal te invito a que lo visites.</p>
+              <p>
+                <a href="https://utopicreative.com" class="button button--invert">ver utopi[c]reative</a>
+                
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+
+
+  <!-- Swiper JS -->
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"
+    integrity="sha512-7eHRwcbYkK4d9g/6tD/mhkf++eoTHwpNM9woBxtPUBWm67zeAfFC+HrdoE2GanKeocly/VxeLvIqwvCdk7qScg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script src="https://unpkg.com/split-type"></script>
+  <script src="js/js.js" defer></script>
+
+
+</body>
+</html>

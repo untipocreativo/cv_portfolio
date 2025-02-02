@@ -1,0 +1,44 @@
+main {
+  display: flex;
+  flex-direction: row;
+}
+.menu-lateral {
+  width: var(--ancho-menu);
+  height: 100vh;
+  background-color: var(--dark);
+  position: fixed;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+}
+.contenido-principal {
+  margin-left: var(--ancho-menu);
+  width: calc(100vw - var(--ancho-menu));
+
+  height: 100vh;
+}
+.ficha {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  
+  height: auto;
+  min-height: 100vh;
+}
+
+
+  @media screen and (max-width: 480px) {
+    .menu-lateral {
+      display: none !important;
+    }
+    .contenido-principal {
+      width: 100%;
+      margin-left: 0;
+    }
+    .ficha {
+      height: auto;
+    }
+
+  }
