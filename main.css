@@ -503,6 +503,23 @@ a.button--invert:hover {
     font-size: 0.6rem;
   }
 }
+.ficha-skills .ficha-grande .mini-iconos-container h3 {
+  color: var(--light);
+  margin-top: 2rem;
+  font-size: 1.2rem;
+}
+.ficha-skills .ficha-grande .mini-iconos-container .mini-iconos {
+  display: flex;
+  gap: 0.6rem;
+  margin-top: 0.8rem;
+}
+.ficha-skills .ficha-grande .mini-iconos-container .mini-iconos .mini-etiqueta {
+  padding: 0.1rem 0.8rem 0.2rem;
+  background-color: var(--light-low);
+  color: var(--light);
+  font-size: 0.6rem;
+  border-radius: 50px;
+}
 @media screen and (max-width: 480px) {
   .ficha-skills {
     padding-top: 4rem;
