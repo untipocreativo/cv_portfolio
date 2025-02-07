@@ -57,7 +57,6 @@
     }
     p.destacado {
       margin-bottom: 1rem;
-
     }
     .button:hover {
       background-color: var(--light);
@@ -83,7 +82,6 @@
     100% {
       transform: translateY(0);
     }
-    
   }
   
   @media screen and (max-width: 480px) {
@@ -196,17 +194,19 @@
 
 .ficha-skills {
   padding: 1rem;
+
   .skills-tags {
     display: flex;
     margin-top: 1.2rem;
     margin-bottom: .6rem;
     overflow-x: scroll;
     white-space: nowrap;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+
     &::-webkit-scrollbar {
       display: none;
     }
-    -ms-overflow-style: none;
-    scrollbar-width: none;
 
     &__tag {
       display: inline-flex;
@@ -215,6 +215,7 @@
       border-radius: 999px;
       margin-right: .4rem;
       cursor: pointer;
+
       span {
         font-size: .75rem;
         color: var(--orange);
@@ -223,6 +224,7 @@
 
       &.active {
         box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
+
         span {
           color: var(--light);
         }
@@ -246,13 +248,11 @@
       height: 100%;
       flex-direction: column;
       justify-content: space-between;
-
       display: none;
 
       &.active {
         display: flex;
       }
-      
       .parte-superior {
         flex-grow: 1;
         display: flex;
@@ -267,7 +267,6 @@
       &__texto p {
         color: var(--light);
         margin-bottom: .5rem;
-
       }
     }
 
@@ -291,6 +290,7 @@
           flex-direction: column;
           align-items: center;
           gap: 1rem; 
+
           .imagen img {
             height: 48px;
             widht: auto;
@@ -299,6 +299,7 @@
             padding: 0 .8rem;
             border-radius: 50px;
             background-color: var(--light-low);
+
             span {
               text-align: center;
               font-size: .7rem;
@@ -378,7 +379,6 @@
       flex-direction: column;
       justify-content: center;
 
-
       &__title {
         color: var(--light);
         font-size: clamp(1.5rem, 1.1rem + 1.3333vw, 2rem);
@@ -441,6 +441,7 @@
   @media screen and (max-width: 480px) {
     .proyectos {
       padding: 1rem;
+
       .box {
         width: 100% !important;
       }
@@ -452,11 +453,14 @@
 // FICHA CONTACTO →
 .ficha-contacto {
   background-color: var(--orange-dirt);
+
   .gigante {
     background-color: var(--light);
+
     h2 {
       color: var(--dark);
       font-size: 14vw;
+      
       @media screen and (max-width: 480px) {
         font-size: 20vw !important;
         margin-top: 4rem;
