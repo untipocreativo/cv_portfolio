@@ -11,6 +11,14 @@ html {
   padding: 0;
   box-sizing: border-box;
 }
+::-moz-selection { /* Code for Firefox */
+  color: var(--light);
+  background: var(--orange-dirt);
+}
+::selection {
+  color: var(--light);
+  background: var(--orange-dirt);
+}
 body {
   background-color: var(--light);
 }
