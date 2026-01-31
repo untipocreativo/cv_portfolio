@@ -135,7 +135,7 @@
       font-size: clamp(2.5rem, 1.75rem + 3.3333vw, 4rem);
       font-weight: normal;
       line-height: .9;
-      margin-bottom: 1.5rem;
+      margin-bottom: 6rem;
     }
 
     .contenedor-fichas-sobre-mi {
@@ -166,14 +166,18 @@
 }
 
 .swiper-slide {
-  text-align: center;
+  text-align: left;
   font-size: 18px;
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 2rem;
+  padding: 2rem 100px;
 
   * {color: var(--light);}
+
+  @media screen and (max-width: 480px) {
+    padding: 2rem;
+  }
 }
 
 .swiper-slide img {
@@ -407,6 +411,15 @@
         &:hover {
           background-color: var(--light);
           color: var(--dark);
+        }
+        &-disabled {
+          cursor: default;
+          background-color: var(--orange-dirt);
+          color: #995a42;
+          &:hover {
+            background-color: var(--orange-dirt);
+            color: #995a42;
+          }
         }
       }
 
