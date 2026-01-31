@@ -525,6 +525,7 @@ a.button--invert:hover {
 }
 .ficha-skills .ficha-grande .mini-iconos-container .mini-iconos {
   display: flex;
+  flex-wrap: wrap;
   gap: 0.6rem;
   margin-top: 0.8rem;
 }

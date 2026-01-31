@@ -338,6 +338,7 @@
       }
       .mini-iconos {
         display: flex;
+        flex-wrap: wrap;
         gap: .6rem;
         margin-top: .8rem;
 
