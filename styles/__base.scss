@@ -314,10 +314,8 @@
           }
         }
 
-
         @media screen and (max-width: 480px) {
           gap: 1rem;
-          justify-content: center;
 
           .icono {
             gap: .5rem;
@@ -540,6 +538,9 @@
 
       .botones-contacto {
         margin-bottom: .6rem;
+        display: flex;
+        gap: .5rem;
+        flex-wrap: wrap;
       }
     }
   }

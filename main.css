@@ -509,7 +509,6 @@ a.button--invert:hover {
 @media screen and (max-width: 480px) {
   .ficha-skills .ficha-grande .iconos-container {
     gap: 1rem;
-    justify-content: center;
   }
   .ficha-skills .ficha-grande .iconos-container .icono {
     gap: 0.5rem;
@@ -703,6 +702,9 @@ a.button--invert:hover {
 }
 .ficha-contacto .contenido-contacto .the-contacto-content .botones-contacto {
   margin-bottom: 0.6rem;
+  display: flex;
+  gap: 0.5rem;
+  flex-wrap: wrap;
 }
 
 #titulo {
